@@ -1,0 +1,42 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    padding: 15px;
+    background-color: #b364e7;
+    color: rgb(0, 0, 0);
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hide {
+    display: none;
+}
+
+a, input[type="submit"] {
+    background-color: mediumorchid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: .7;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+a:hover, input[type="submit"] {
+    opacity: 1;
+}
+
